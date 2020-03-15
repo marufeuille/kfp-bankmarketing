@@ -1,6 +1,6 @@
 #!/bin/bash -e
-image_name=YOUR_IMAGE_NAME_AT_REPOGITORY
-image_tag=0.0.1
+image_name=registry-intl.ap-northeast-1.aliyuncs.com/mykfp/preprocessor-bm
+image_tag=0.0.3
 full_image_name=${image_name}:${image_tag}
 
 cd "$(dirname "$0")" 
